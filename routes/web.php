@@ -1,7 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\ProgramacionController;
+use App\Http\Controllers\EnlacesController;
+use App\Http\Controllers\BibliotecaController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,9 +15,17 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::middleware(['auth:sanctum', 'verified'])->get('/programacion', [ProgramacionController::class, 'index']);
+
+Route::middleware(['auth:sanctum', 'verified'])->get('/biblioteca', [BibliotecaController::class, 'index']);
+
+Route::middleware(['auth:sanctum', 'verified'])->get('/enlaces', [EnlacesController::class, 'index']);
+
+
 Route::get('/', function () {
     return view('inicio');
 });
+
 
 Route::middleware([
     'auth:sanctum',
