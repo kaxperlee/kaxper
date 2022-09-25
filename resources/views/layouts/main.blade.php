@@ -11,7 +11,7 @@
 </head>
 
 <body class="bg-dark">
-    <nav class="navbar navbar-expand d-flex fixed-top align-items-center px-4" style="height: 100px;">
+    <nav class="navbar navbar-expand d-flex fixed-top align-items-center px-4 bg-dark" style="height: 100px;">
 
         <div class="me-auto logo bg-dark text-center" style="width:310px; border-bottom:0px solid red">
             <a class="navbar-brand link-secondary" href="#">KAXPER LEE</a>
@@ -20,7 +20,7 @@
     </nav>
     <div class="d-flex container-fluid m-0 px-4 bg-dark"
         style="height: 100vh;padding-top:100px; background-color: orange">
-        <aside class="" style="width:310px;background-color: #111">
+        <aside class="" style="min-width:310px;background-color: #111">
         @yield('sidebar')
         </aside>
         <section class="flex-fill" style="margin-left: 20px;border-top:0px solid #333">
@@ -35,7 +35,7 @@
         <div>Foot 2</div>
         <div>Foot 3</div>
     </footer>
-    <script src="libs/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 
 </html>
