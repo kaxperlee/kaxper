@@ -3,10 +3,14 @@
 namespace Database\Seeders;
 
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+
+use App\Models\AgendaDestinatario;
 use Illuminate\Database\Seeder;
 use App\Models\Codigo;
+use App\Models\LinkEnlace;
 use App\Models\User;
 use Illuminate\Support\Facades\Hash;
+Use App\Models\LinkGrupo;
 
 class DatabaseSeeder extends Seeder
 {
@@ -17,6 +21,8 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
+        //$this->call(AgendaDestinatarioSeeder::class);
+
         $codigo = new Codigo();
         $codigo->Nombre = "Laravel web Oficial";
         $codigo->Grupo = "Laravel";
@@ -25,7 +31,7 @@ class DatabaseSeeder extends Seeder
         $codigo->Enlace = "https://laravel.com";
         $codigo->save();
 
-      
+
         $codigo = new Codigo();
         $codigo->Nombre = "DJango web oficial";
         $codigo->Grupo = "Python";
@@ -57,13 +63,47 @@ class DatabaseSeeder extends Seeder
         $codigo->Descripcion = "Recompilar Bootstrap Sass en VSCode";
         $codigo->Enlace = "https://www.youtube.com/watch?v=cFjWCTk6lXc";
         $codigo->save();
-        
+
         $user = new User();
         $user->name = "Admin";
         $user->email = "admin@admin.com";
         $user->password = Hash::make('password');
         $user->save();
 
-        
+        $user = new LinkGrupo();
+        $user->Grupo = "Peliculas";
+        $user->save();
+
+        $user = new LinkGrupo();
+        $user->Grupo = "Juegos PC";
+        $user->save();
+
+        $user = new LinkGrupo();
+        $user->Grupo = "Piano";
+        $user->save();
+
+        $user = new LinkGrupo();
+        $user->Grupo = "Blogs";
+        $user->save();
+
+        $user = new LinkGrupo();
+        $user->Grupo = "VSTi";
+        $user->save();
+
+        $user = new LinkEnlace();
+        $user->id_link_grupos = 1;
+        $user->Nombre = 'Naranja Torrent';
+        $user->Enlace = 'https://naranjatorrent.com';
+        $user->save();
+
+        $user = new LinkEnlace();
+        $user->id_link_grupos = 1;
+        $user->Nombre = 'Info Maniakos';
+        $user->Enlace = 'https://infomaniakos.net/';
+        $user->save();
+
+        $this->call(AgendaDestinatarioSeeder::class);
+        $this->call(AgendaTipoSeeder::class);
+        $this->call(TareaSeeder::class);
     }
 }

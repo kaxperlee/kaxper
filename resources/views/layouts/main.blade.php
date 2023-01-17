@@ -7,6 +7,7 @@
     <meta name="title" content="Título de la WEB">
     <meta name="description" content="Descripción de la WEB">
     <!-- Bootstrap CSS -->
+    <script src="https://kit.fontawesome.com/50de09d042.js" crossorigin="anonymous"></script>
     @vite(['resources/css/app.css','resources/css/estilos.css', 'resources/js/app.js'])
 </head>
 

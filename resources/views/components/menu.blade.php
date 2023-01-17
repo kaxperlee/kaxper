@@ -13,10 +13,10 @@
             <a class="nav-link" href='{{ url("/enlaces") }}'>Enlaces</a>
         </li>
         <li class="nav-item menu">
-            <a class="nav-link" href="#">VSTi</a>
+            <a class="nav-link" href="#">Piano</a>
         </li>
         <li class="nav-item menu">
-            <a class="nav-link" href="#">Agenda</a>
+            <a class="nav-link" href="{{ url("/agenda") }}">Agenda</a>
         </li>
     </ul>
 </div>
