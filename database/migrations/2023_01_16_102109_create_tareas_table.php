@@ -26,9 +26,13 @@ return new class extends Migration
                 ->on('agenda_tipos')
                 ->onDelete('set null');
             $table->foreign('agenda_destinatario_id')->references('id')->on('agenda_destinatarios')->onDelete('set null');
+            $table->integer('elefante_id')->nullable();
             $table->Integer('Tiempo')->nullable();
             $table->Integer('Tiempoestimado')->nullable();
             $table->date('Fecha', $precision = 0)->nullable();
+            $table->integer('Dia')->nullable();
+            $table->integer('Mes')->nullable();
+            $table->integer('Ano')->nullable();
             $table->tinyInteger('Semana')->nullable();
             $table->timestamps();
         });

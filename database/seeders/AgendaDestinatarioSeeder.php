@@ -99,5 +99,15 @@ class AgendaDestinatarioSeeder extends Seeder
         $agendadestinatario->Nombre = "Eva";
         $agendadestinatario->Empresa = "Tla Corp";
         $agendadestinatario->save();
+
+        $agendadestinatario = new AgendaDestinatario();
+        $agendadestinatario->Nombre = "Nuria";
+        $agendadestinatario->Empresa = "Tla Corp";
+        $agendadestinatario->save();
+
+        $agendadestinatario = new AgendaDestinatario();
+        $agendadestinatario->Nombre = "Aolani";
+        $agendadestinatario->Empresa = "Tla Corp";
+        $agendadestinatario->save();
     }
 }

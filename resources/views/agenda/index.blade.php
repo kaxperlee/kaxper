@@ -20,13 +20,13 @@
     <div class="row g-2">
         <div class="col-6">
             <div  class="p-3 border border-secondary-subtle text-left">
-                <p style='text-transform: uppercase;'>Tareas</p>
+                <p style='text-transform: uppercase;'>TAREAS</p>
                 <table class="table table-striped">
                     @foreach ($tareas->where('agenda_tipo_id',1) as $tarea)
                         <tr>
-                            <td>{{date('d-m-y',strtotime($tarea->Fecha))}} - {{date('w',strtotime($tarea->Fecha))}}</td>
+                            <td>{{date('d-m-y',strtotime($tarea->Fecha))}}</td>
                             <td>{{$tarea->Tarea}}</td>
-                            <td>{{$tarea->Tiempoestimado}}m</td>
+                            <td>{{$tarea->Tiempo}}m</td>
                             <td>{{$tarea->agendaDestinatario->Nombre}}</td>
                         </tr>
                     @endforeach
@@ -35,13 +35,27 @@
         </div>
         <div class="col-6">
             <div class="p-3 border border-secondary-subtle text-left">
-                <p style='text-transform: uppercase;'>Micro tareas</p>
+                <p style='text-transform: uppercase;'>SIN FECHA</p>
+                <table class="table table-striped">
+                    @foreach ($sinfechas->where('agenda_tipo_id',5) as $sinfecha)
+                        <tr>
+                            <td>- {{$sinfecha->Tarea}}</td>
+                            <td>{{$sinfecha->Tiempoestimado}}m</td>
+                            <td>{{$sinfecha->agendaDestinatario->Nombre}}</td>
+                        </tr>
+                    @endforeach
+                </table>
+            </div>
+        </div>
+        <div class="col-12">
+            <div class="p-3 border border-secondary-subtle text-left">
+                <p>MICROTAREAS</p>
                 <table class="table table-striped">
                     @foreach ($tareas->where('agenda_tipo_id',2) as $tarea)
                         <tr>
                             <td>{{date('d-m-y',strtotime($tarea->Fecha))}}</td>
                             <td>{{$tarea->Tarea}}</td>
-                            <td>{{$tarea->Tiempoestimado}}m</td>
+                            <td>{{$tarea->Tiempo}}m</td>
                             <td>{{$tarea->agendaDestinatario->Nombre}}</td>
                         </tr>
                     @endforeach
@@ -50,14 +64,12 @@
         </div>
         <div class="col-12">
             <div class="p-3 border border-secondary-subtle text-left">
-                <p>Tareas elefante</p>
+                <p>ELEFANTES</p>
                 <table class="table table-striped">
-                    @foreach ($tareas->where('agenda_tipo_id',3) as $tarea)
+                    @foreach ($sinfechas->where('agenda_tipo_id',3) as $sinfecha)
                         <tr>
-                            <td>{{date('d-m-y',strtotime($tarea->Fecha))}}</td>
-                            <td>{{$tarea->Tarea}}</td>
-                            <td>{{$tarea->Tiempoestimado}}m</td>
-                            <td>{{$tarea->agendaDestinatario->Nombre}}</td>
+                            <td>{{$sinfecha->Tarea}}</td>
+                            <td>{{$sinfecha->agendaDestinatario->Nombre}}</td>
                         </tr>
                     @endforeach
                 </table>
@@ -65,13 +77,13 @@
         </div>
         <div class="col-12">
             <div class="p-3 border border-secondary-subtle text-left">
-                <p>Investigacion</p>
+                <p>INVESTIGACIÓN</p>
                 <table class="table table-striped">
                     @foreach ($tareas->where('agenda_tipo_id',4) as $tarea)
                         <tr>
                             <td>{{date('d-m-y',strtotime($tarea->Fecha))}}</td>
                             <td>{{$tarea->Tarea}}</td>
-                            <td>{{$tarea->Tiempoestimado}}m</td>
+                            <td>{{$tarea->Tiempo}}m</td>
                             <td>{{$tarea->agendaDestinatario->Nombre}}</td>
                         </tr>
                     @endforeach
