@@ -109,5 +109,40 @@ class AgendaDestinatarioSeeder extends Seeder
         $agendadestinatario->Nombre = "Aolani";
         $agendadestinatario->Empresa = "Tla Corp";
         $agendadestinatario->save();
+
+        $agendadestinatario = new AgendaDestinatario();
+        $agendadestinatario->Nombre = "Esther Bolivar";
+        $agendadestinatario->Empresa = "Tla Corp";
+        $agendadestinatario->save();
+
+        $agendadestinatario = new AgendaDestinatario();
+        $agendadestinatario->Nombre = "Daniel";
+        $agendadestinatario->Empresa = "Tla Corp";
+        $agendadestinatario->save();
+
+        $agendadestinatario = new AgendaDestinatario();
+        $agendadestinatario->Nombre = "Rubén";
+        $agendadestinatario->Empresa = "Tla Corp";
+        $agendadestinatario->save();
+
+        $agendadestinatario = new AgendaDestinatario();
+        $agendadestinatario->Nombre = "Javier Sabuco";
+        $agendadestinatario->Empresa = "Premier Asesores";
+        $agendadestinatario->save();
+
+        $agendadestinatario = new AgendaDestinatario();
+        $agendadestinatario->Nombre = "Elena";
+        $agendadestinatario->Empresa = "Premier Asesores";
+        $agendadestinatario->save();
+
+        $agendadestinatario = new AgendaDestinatario();
+        $agendadestinatario->Nombre = "Noelia";
+        $agendadestinatario->Empresa = "Tla Corp";
+        $agendadestinatario->save();
+
+        $agendadestinatario = new AgendaDestinatario();
+        $agendadestinatario->Nombre = "Judith";
+        $agendadestinatario->Empresa = "Antonio Martinez";
+        $agendadestinatario->save();
     }
 }

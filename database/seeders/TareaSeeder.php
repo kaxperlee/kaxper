@@ -340,11 +340,216 @@ class TareaSeeder extends Seeder
         $tarea->save();
 
         $tarea = new Tarea();
-        $tarea->Tarea = "Error captcha Spanish Tax Calculator";
+        $tarea->Tarea = "Revision MN, error al configurar la carpeta de MN en Onedrive";
         $tarea->agenda_tipo_id = 1;
-        $tarea->agenda_destinatario_id = 15;
+        $tarea->agenda_destinatario_id = 1;
         $tarea->Tiempo = 20;
-        $tarea->Fecha = '2023/01/05';
+        $tarea->Fecha = '2023/01/09';
+        $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
+        $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
+        $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
+        $tarea->Semana = intval(date('W',strtotime($tarea->Fecha)));
+        $tarea->save();
+
+        $tarea = new Tarea();
+        $tarea->Tarea = "Configuracion de carpetas 2022 y 2023 de Teams";
+        $tarea->agenda_tipo_id = 1;
+        $tarea->agenda_destinatario_id = 5;
+        $tarea->Tiempo = 20;
+        $tarea->Fecha = '2023/01/09';
+        $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
+        $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
+        $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
+        $tarea->Semana = intval(date('W',strtotime($tarea->Fecha)));
+        $tarea->save();
+
+        $tarea = new Tarea();
+        $tarea->Tarea = "Configuracion de carpetas 2022 y 2023 de Teams";
+        $tarea->agenda_tipo_id = 1;
+        $tarea->agenda_destinatario_id = 20;
+        $tarea->Tiempo = 20;
+        $tarea->Fecha = '2023/01/09';
+        $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
+        $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
+        $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
+        $tarea->Semana = intval(date('W',strtotime($tarea->Fecha)));
+        $tarea->save();
+
+        $tarea = new Tarea();
+        $tarea->Tarea = "Configuracion de carpetas 2022 y 2023 de Teams";
+        $tarea->agenda_tipo_id = 1;
+        $tarea->agenda_destinatario_id = 19;
+        $tarea->Tiempo = 20;
+        $tarea->Fecha = '2023/01/09';
+        $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
+        $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
+        $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
+        $tarea->Semana = intval(date('W',strtotime($tarea->Fecha)));
+        $tarea->save();
+
+        $tarea = new Tarea();
+        $tarea->Tarea = "Traspaso carpeta 22 a teams";
+        $tarea->agenda_tipo_id = 1;
+        $tarea->agenda_destinatario_id = 3;
+        $tarea->Tiempo = 240;
+        $tarea->Fecha = '2023/01/13';
+        $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
+        $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
+        $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
+        $tarea->Semana = intval(date('W',strtotime($tarea->Fecha)));
+        $tarea->save();
+
+        $tarea = new Tarea();
+        $tarea->Tarea = "Configuracion de carpetas 2022 y 2023 de Teams";
+        $tarea->agenda_tipo_id = 1;
+        $tarea->agenda_destinatario_id = 17;
+        $tarea->Tiempo = 20;
+        $tarea->Fecha = '2023/01/10';
+        $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
+        $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
+        $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
+        $tarea->Semana = intval(date('W',strtotime($tarea->Fecha)));
+        $tarea->save();
+
+        $tarea = new Tarea();
+        $tarea->Tarea = "Configuracion carpetas 22 y 23 de teams, instalacion de PDF y PDF Pro, activacion windows, instalacion
+        vpn nueva y servidor NAS nuevo Campello.";
+        $tarea->agenda_tipo_id = 1;
+        $tarea->agenda_destinatario_id = 18;
+        $tarea->Tiempo = 60;
+        $tarea->Fecha = '2023/01/10';
+        $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
+        $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
+        $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
+        $tarea->Semana = intval(date('W',strtotime($tarea->Fecha)));
+        $tarea->save();
+
+        $tarea = new Tarea();
+        $tarea->Tarea = "Configuracion carpetas 22 y 23 Teams";
+        $tarea->agenda_tipo_id = 1;
+        $tarea->agenda_destinatario_id = 21;
+        $tarea->Tiempo = 20;
+        $tarea->Fecha = '2023/01/10';
+        $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
+        $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
+        $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
+        $tarea->Semana = intval(date('W',strtotime($tarea->Fecha)));
+        $tarea->save();
+
+        $tarea = new Tarea();
+        $tarea->Tarea = "Error sincronizacion Onedrive, ha arrastrado el acceso directo de 2023 dentro de Onedrive";
+        $tarea->agenda_tipo_id = 1;
+        $tarea->agenda_destinatario_id = 19;
+        $tarea->Tiempo = 40;
+        $tarea->Fecha = '2023/01/11';
+        $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
+        $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
+        $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
+        $tarea->Semana = intval(date('W',strtotime($tarea->Fecha)));
+        $tarea->save();
+
+        $tarea = new Tarea();
+        $tarea->Tarea = "Problema con teams, no le aparecian los ficheros";
+        $tarea->agenda_tipo_id = 1;
+        $tarea->agenda_destinatario_id = 9;
+        $tarea->Tiempo = 10;
+        $tarea->Fecha = '2023/01/11';
+        $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
+        $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
+        $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
+        $tarea->Semana = intval(date('W',strtotime($tarea->Fecha)));
+        $tarea->save();
+
+        $tarea = new Tarea();
+        $tarea->Tarea = "Revision fichero perdido";
+        $tarea->agenda_tipo_id = 1;
+        $tarea->agenda_destinatario_id = 13;
+        $tarea->Tiempo = 20;
+        $tarea->Fecha = '2023/01/11';
+        $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
+        $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
+        $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
+        $tarea->Semana = intval(date('W',strtotime($tarea->Fecha)));
+        $tarea->save();
+
+        $tarea = new Tarea();
+        $tarea->Tarea = "Instalacion impresora";
+        $tarea->agenda_tipo_id = 1;
+        $tarea->agenda_destinatario_id = 17;
+        $tarea->Tiempo = 20;
+        $tarea->Fecha = '2023/01/11';
+        $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
+        $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
+        $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
+        $tarea->Semana = intval(date('W',strtotime($tarea->Fecha)));
+        $tarea->save();
+
+        $tarea = new Tarea();
+        $tarea->Tarea = "Problema con Onedrive: Onedrive colapsado";
+        $tarea->agenda_tipo_id = 1;
+        $tarea->agenda_destinatario_id = 1;
+        $tarea->Tiempo = 30;
+        $tarea->Fecha = '2023/01/12';
+        $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
+        $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
+        $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
+        $tarea->Semana = intval(date('W',strtotime($tarea->Fecha)));
+        $tarea->save();
+
+        $tarea = new Tarea();
+        $tarea->Tarea = "Problema de sincronizacion de teams. Onedrive colapsado";
+        $tarea->agenda_tipo_id = 1;
+        $tarea->agenda_destinatario_id = 6;
+        $tarea->Tiempo = 40;
+        $tarea->Fecha = '2023/01/12';
+        $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
+        $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
+        $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
+        $tarea->Semana = intval(date('W',strtotime($tarea->Fecha)));
+        $tarea->save();
+
+        $tarea = new Tarea();
+        $tarea->Tarea = "Recuperacion de una carpeta de 2018";
+        $tarea->agenda_tipo_id = 1;
+        $tarea->agenda_destinatario_id = 3;
+        $tarea->Tiempo = 30;
+        $tarea->Fecha = '2023/01/13';
+        $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
+        $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
+        $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
+        $tarea->Semana = intval(date('W',strtotime($tarea->Fecha)));
+        $tarea->save();
+
+        $tarea = new Tarea();
+        $tarea->Tarea = "Crear buzon archivo de Mati";
+        $tarea->agenda_tipo_id = 1;
+        $tarea->agenda_destinatario_id = 1;
+        $tarea->Tiempo = 90;
+        $tarea->Fecha = '2023/01/13';
+        $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
+        $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
+        $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
+        $tarea->Semana = intval(date('W',strtotime($tarea->Fecha)));
+        $tarea->save();
+
+        $tarea = new Tarea();
+        $tarea->Tarea = "Configuracion portatil, cuenta de correo, office 2021, teams, MN";
+        $tarea->agenda_tipo_id = 1;
+        $tarea->agenda_destinatario_id = 22;
+        $tarea->Tiempo = 90;
+        $tarea->Fecha = '2023/01/16';
+        $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
+        $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
+        $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
+        $tarea->Semana = intval(date('W',strtotime($tarea->Fecha)));
+        $tarea->save();
+
+        $tarea = new Tarea();
+        $tarea->Tarea = "Instalacion impresora nueva";
+        $tarea->agenda_tipo_id = 1;
+        $tarea->agenda_destinatario_id = 5;
+        $tarea->Tiempo = 20;
+        $tarea->Fecha = '2023/01/16';
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -364,6 +569,187 @@ class TareaSeeder extends Seeder
         $tarea->save();
 
         $tarea = new Tarea();
+        $tarea->Tarea = "Instalacion MN y correo MN";
+        $tarea->agenda_tipo_id = 1;
+        $tarea->agenda_destinatario_id = 22;
+        $tarea->Tiempo = 30;
+        $tarea->Fecha = '2023/01/17';
+        $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
+        $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
+        $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
+        $tarea->Semana = intval(date('W',strtotime($tarea->Fecha)));
+        $tarea->save();
+
+        $tarea = new Tarea();
+        $tarea->Tarea = "Instalacion y analisis de Malwarebites";
+        $tarea->agenda_tipo_id = 1;
+        $tarea->agenda_destinatario_id = 9;
+        $tarea->Tiempo = 30;
+        $tarea->Fecha = '2023/01/17';
+        $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
+        $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
+        $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
+        $tarea->Semana = intval(date('W',strtotime($tarea->Fecha)));
+        $tarea->save();
+
+        $tarea = new Tarea();
+        $tarea->Tarea = "Revision Onedrive y eliminar iconos del escritorio";
+        $tarea->agenda_tipo_id = 1;
+        $tarea->agenda_destinatario_id = 3;
+        $tarea->Tiempo = 30;
+        $tarea->Fecha = '2023/01/17';
+        $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
+        $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
+        $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
+        $tarea->Semana = intval(date('W',strtotime($tarea->Fecha)));
+        $tarea->save();
+
+        $tarea = new Tarea();
+        $tarea->Tarea = "Reinstalacion de Office";
+        $tarea->agenda_tipo_id = 1;
+        $tarea->agenda_destinatario_id = 23;
+        $tarea->Tiempo = 45;
+        $tarea->Fecha = '2023/01/17';
+        $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
+        $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
+        $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
+        $tarea->Semana = intval(date('W',strtotime($tarea->Fecha)));
+        $tarea->save();
+
+        $tarea = new Tarea();
+        $tarea->Tarea = "Reinstalacion de office";
+        $tarea->agenda_tipo_id = 1;
+        $tarea->agenda_destinatario_id = 24;
+        $tarea->Tiempo = 45;
+        $tarea->Fecha = '2023/01/17';
+        $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
+        $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
+        $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
+        $tarea->Semana = intval(date('W',strtotime($tarea->Fecha)));
+        $tarea->save();
+
+        $tarea = new Tarea();
+        $tarea->Tarea = "Instalar impresora Brother";
+        $tarea->agenda_tipo_id = 1;
+        $tarea->agenda_destinatario_id = 22;
+        $tarea->Tiempo = 20;
+        $tarea->Fecha = '2023/01/18';
+        $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
+        $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
+        $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
+        $tarea->Semana = intval(date('W',strtotime($tarea->Fecha)));
+        $tarea->save();
+
+        $tarea = new Tarea();
+        $tarea->Tarea = "Instalar impresora Brother";
+        $tarea->agenda_tipo_id = 1;
+        $tarea->agenda_destinatario_id = 5;
+        $tarea->Tiempo = 20;
+        $tarea->Fecha = '2023/01/18';
+        $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
+        $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
+        $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
+        $tarea->Semana = intval(date('W',strtotime($tarea->Fecha)));
+        $tarea->save();
+
+        $tarea = new Tarea();
+        $tarea->Tarea = "Buscar carpeta de 2022. Finalmente estaba en otra ubicacion";
+        $tarea->agenda_tipo_id = 1;
+        $tarea->agenda_destinatario_id = 9;
+        $tarea->Tiempo = 20;
+        $tarea->Fecha = '2023/01/18';
+        $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
+        $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
+        $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
+        $tarea->Semana = intval(date('W',strtotime($tarea->Fecha)));
+        $tarea->save();
+
+        $tarea = new Tarea();
+        $tarea->Tarea = "Consulta sobre word";
+        $tarea->agenda_tipo_id = 1;
+        $tarea->agenda_destinatario_id = 21;
+        $tarea->Tiempo = 20;
+        $tarea->Fecha = '2023/01/19';
+        $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
+        $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
+        $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
+        $tarea->Semana = intval(date('W',strtotime($tarea->Fecha)));
+        $tarea->save();
+
+        $tarea = new Tarea();
+        $tarea->Tarea = "Configuración de la carpeta archivo (expedientes antiguos)";
+        $tarea->agenda_tipo_id = 1;
+        $tarea->agenda_destinatario_id = 3;
+        $tarea->Tiempo = 15;
+        $tarea->Fecha = '2023/01/19';
+        $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
+        $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
+        $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
+        $tarea->Semana = intval(date('W',strtotime($tarea->Fecha)));
+        $tarea->save();
+
+        $tarea = new Tarea();
+        $tarea->Tarea = "Configuración de la carpeta archivo (expedientes antiguos)";
+        $tarea->agenda_tipo_id = 1;
+        $tarea->agenda_destinatario_id = 9;
+        $tarea->Tiempo = 15;
+        $tarea->Fecha = '2023/01/19';
+        $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
+        $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
+        $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
+        $tarea->Semana = intval(date('W',strtotime($tarea->Fecha)));
+        $tarea->save();
+
+        $tarea = new Tarea();
+        $tarea->Tarea = "Configuración de la carpeta archivo (expedientes antiguos)";
+        $tarea->agenda_tipo_id = 1;
+        $tarea->agenda_destinatario_id = 13;
+        $tarea->Tiempo = 15;
+        $tarea->Fecha = '2023/01/19';
+        $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
+        $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
+        $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
+        $tarea->Semana = intval(date('W',strtotime($tarea->Fecha)));
+        $tarea->save();
+
+        $tarea = new Tarea();
+        $tarea->Tarea = "Consulta sobre correo electronico y configuracion de carpetas 2022 y 2023 de TEAMS";
+        $tarea->agenda_tipo_id = 1;
+        $tarea->agenda_destinatario_id = 25;
+        $tarea->Tiempo = 30;
+        $tarea->Fecha = '2023/01/20';
+        $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
+        $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
+        $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
+        $tarea->Semana = intval(date('W',strtotime($tarea->Fecha)));
+        $tarea->save();
+
+        $tarea = new Tarea();
+        $tarea->Tarea = "Actualizacion autofirma";
+        $tarea->agenda_tipo_id = 1;
+        $tarea->agenda_destinatario_id = 26;
+        $tarea->Tiempo = 20;
+        $tarea->Fecha = '2023/01/20';
+        $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
+        $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
+        $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
+        $tarea->Semana = intval(date('W',strtotime($tarea->Fecha)));
+        $tarea->save();
+
+        $tarea = new Tarea();
+        $tarea->Tarea = "Configuracion de la carpeta 2017(archivo) y desbloquearla para poder editarla, queda pendiente replicar los
+        cambios y volver a bloquear";
+        $tarea->agenda_tipo_id = 1;
+        $tarea->agenda_destinatario_id = 6;
+        $tarea->Tiempo = 30;
+        $tarea->Fecha = '2023/01/20';
+        $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
+        $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
+        $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
+        $tarea->Semana = intval(date('W',strtotime($tarea->Fecha)));
+        $tarea->save();
+
+        $tarea = new Tarea();
         $tarea->Tarea = "Programa Compliance Jurídico";
         $tarea->agenda_tipo_id = 3;
         $tarea->agenda_destinatario_id = 16;
@@ -374,6 +760,19 @@ class TareaSeeder extends Seeder
         //$tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
         //$tarea->Semana = intval(date('W',strtotime($tarea->Fecha)));
         $tarea->save();
+
+        $tarea = new Tarea();
+        $tarea->Tarea = "Reconfigurar routers para salir todos por el Synology, reservar todas las ips y quitar asignacion de ips automaticas";
+        $tarea->agenda_tipo_id = 3;
+        $tarea->agenda_destinatario_id = 16;
+        //$tarea->Tiempoestimado = 240;
+        //$tarea->Fecha = '2023/01/23';
+        //$tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
+        //$tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
+        //$tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
+        //$tarea->Semana = intval(date('W',strtotime($tarea->Fecha)));
+        $tarea->save();
+
 
         $tarea = new Tarea();
         $tarea->Tarea = "Configuración doble factor 365 GAR";
@@ -438,18 +837,6 @@ class TareaSeeder extends Seeder
         $tarea->save();
 
         $tarea = new Tarea();
-        $tarea->Tarea = "Editar video tutorial de Toni";
-        $tarea->agenda_tipo_id = 5;
-        $tarea->agenda_destinatario_id = 16;
-        $tarea->Tiempoestimado = 45;
-        //$tarea->Fecha = '2023/01/23';
-        //$tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
-        //$tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
-        //$tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
-        //$tarea->Semana = intval(date('W',strtotime($tarea->Fecha)));
-        $tarea->save();
-
-        $tarea = new Tarea();
         $tarea->Tarea = "Solucionar problema de SAGE en contabilidad que le sale a Marcelino";
         $tarea->agenda_tipo_id = 1;
         $tarea->agenda_destinatario_id = 16;
@@ -497,5 +884,91 @@ class TareaSeeder extends Seeder
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
         $tarea->Semana = intval(date('W',strtotime($tarea->Fecha)));
         $tarea->save();
+
+        $tarea = new Tarea();
+        $tarea->Tarea = "Editar video tutorial de Toni";
+        $tarea->agenda_tipo_id = 1;
+        $tarea->agenda_destinatario_id = 16;
+        $tarea->Tiempo = 40;
+        $tarea->Fecha = '2023/01/25';
+        $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
+        $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
+        $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
+        $tarea->Semana = intval(date('W',strtotime($tarea->Fecha)));
+        $tarea->save();
+
+        $tarea = new Tarea();
+        $tarea->Tarea = "Revision contraseña office 365";
+        $tarea->agenda_tipo_id = 1;
+        $tarea->agenda_destinatario_id = 11;
+        $tarea->Tiempo = 10;
+        $tarea->Fecha = '2023/01/26';
+        $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
+        $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
+        $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
+        $tarea->Semana = intval(date('W',strtotime($tarea->Fecha)));
+        $tarea->save();
+
+        $tarea = new Tarea();
+        $tarea->Tarea = "Error en descarga de certificado, no se ha podido solucionar";
+        $tarea->agenda_tipo_id = 1;
+        $tarea->agenda_destinatario_id = 9;
+        $tarea->Tiempo = 10;
+        $tarea->Fecha = '2023/01/26';
+        $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
+        $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
+        $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
+        $tarea->Semana = intval(date('W',strtotime($tarea->Fecha)));
+        $tarea->save();
+
+        $tarea = new Tarea();
+        $tarea->Tarea = "Reinstalar VPN";
+        $tarea->agenda_tipo_id = 1;
+        $tarea->agenda_destinatario_id = 2;
+        $tarea->Tiempo = 10;
+        $tarea->Fecha = '2023/01/26';
+        $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
+        $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
+        $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
+        $tarea->Semana = intval(date('W',strtotime($tarea->Fecha)));
+        $tarea->save();
+
+        $tarea = new Tarea();
+        $tarea->Tarea = "Configuracion de correo alias en Mn para poder enviar desde tlacorp y tlaconsultance";
+        $tarea->agenda_tipo_id = 1;
+        $tarea->agenda_destinatario_id = 4;
+        $tarea->Tiempo = 30;
+        $tarea->Fecha = '2023/01/27';
+        $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
+        $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
+        $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
+        $tarea->Semana = intval(date('W',strtotime($tarea->Fecha)));
+        $tarea->save();
+
+        $tarea = new Tarea();
+        $tarea->Tarea = "Problema con el formulario de contacto de spanishsolicitors";
+        $tarea->agenda_tipo_id = 1;
+        $tarea->agenda_destinatario_id = 15;
+        $tarea->Tiempoestimado = 40;
+        $tarea->Fecha = '2023/01/27';
+        $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
+        $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
+        $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
+        $tarea->Semana = intval(date('W',strtotime($tarea->Fecha)));
+        $tarea->save();
+
+        $tarea = new Tarea();
+        $tarea->Tarea = "Instalacion de la impresora de Javea";
+        $tarea->agenda_tipo_id = 1;
+        $tarea->agenda_destinatario_id = 5;
+        $tarea->Tiempoestimado = 20;
+        $tarea->Fecha = '2023/01/27';
+        $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
+        $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
+        $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
+        $tarea->Semana = intval(date('W',strtotime($tarea->Fecha)));
+        $tarea->save();
+
+
     }
 }

@@ -14,7 +14,7 @@
 
 @section('body')
 
-<h4 class="text-secondary">AGENDA</h4>
+<h4 class="text-secondary mb-4">AGENDA </h4>
 
 <div class="container-fluid text-center">
     <div class="row g-2">
@@ -30,6 +30,9 @@
                             <td>{{$tarea->agendaDestinatario->Nombre}}</td>
                         </tr>
                     @endforeach
+                    <tr>
+                        <td align="right" colspan="4">Total tiempo empleado: {{intdiv($tareas->where('agenda_tipo_id',1)->sum('Tiempo'), 60)}} Horas {{$tareas->where('agenda_tipo_id',1)->sum('Tiempo')%60}} minutos</td>
+                    </tr>
                 </table>
             </div>
         </div>
@@ -44,6 +47,7 @@
                             <td>{{$sinfecha->agendaDestinatario->Nombre}}</td>
                         </tr>
                     @endforeach
+
                 </table>
             </div>
         </div>
