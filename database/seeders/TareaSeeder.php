@@ -15,6 +15,7 @@ class TareaSeeder extends Seeder
      */
     public function run()
     {
+
         $tarea = new Tarea();
         $tarea->Tarea = "Reactivación Office";
         $tarea->agenda_tipo_id = 1;
@@ -970,5 +971,292 @@ class TareaSeeder extends Seeder
         $tarea->save();
 
 
+        $tarea = new Tarea();
+        $tarea->Tarea = "Configuracion de la carpeta 2017(archivo)";
+        $tarea->agenda_tipo_id = 1;
+        $tarea->agenda_destinatario_id = 6;
+        $tarea->Tiempo = 10;
+        $tarea->Fecha = '2023/01/30';
+        $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
+        $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
+        $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
+        $tarea->Semana = intval(date('W',strtotime($tarea->Fecha)));
+        $tarea->save();
+
+        $tarea = new Tarea();
+        $tarea->Tarea = "Configuracion de la carpeta 2017(archivo)";
+        $tarea->agenda_tipo_id = 1;
+        $tarea->agenda_destinatario_id = 9;
+        $tarea->Tiempo = 10;
+        $tarea->Fecha = '2023/01/30';
+        $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
+        $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
+        $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
+        $tarea->Semana = intval(date('W',strtotime($tarea->Fecha)));
+        $tarea->save();
+
+        $tarea = new Tarea();
+        $tarea->Tarea = "No apatece el expediente 777/2022 bakertilly. Finalmente estaba en 2020/JC";
+        $tarea->agenda_tipo_id = 1;
+        $tarea->agenda_destinatario_id = 12;
+        $tarea->Tiempo = 20;
+        $tarea->Fecha = '2023/01/30';
+        $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
+        $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
+        $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
+        $tarea->Semana = intval(date('W',strtotime($tarea->Fecha)));
+        $tarea->save();
+
+        $tarea = new Tarea();
+        $tarea->Tarea = "Compra de licencia y configuracion de buzon gestion@legalsmart.es";
+        $tarea->agenda_tipo_id = 1;
+        $tarea->agenda_destinatario_id = 27;
+        $tarea->Tiempo = 45;
+        $tarea->Fecha = '2023/01/31';
+        $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
+        $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
+        $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
+        $tarea->Semana = intval(date('W',strtotime($tarea->Fecha)));
+        $tarea->save();
+
+        $tarea = new Tarea();
+        $tarea->Tarea = "Redirección del correo de Gema hacia la cuenta de Lucía";
+        $tarea->agenda_tipo_id = 1;
+        $tarea->agenda_destinatario_id = 6;
+        $tarea->Tiempo = 20;
+        $tarea->Fecha = '2023/01/31';
+        $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
+        $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
+        $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
+        $tarea->Semana = intval(date('W',strtotime($tarea->Fecha)));
+        $tarea->save();
+
+        $tarea = new Tarea();
+        $tarea->Tarea = "Configuracion de la cuenta de Tlaconsultance en MN y reconfiguracion de la de Tla y Ls, cambio de pop3 a Imap";
+        $tarea->agenda_tipo_id = 1;
+        $tarea->agenda_destinatario_id = 18;
+        $tarea->Tiempo = 40;
+        $tarea->Fecha = '2023/01/31';
+        $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
+        $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
+        $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
+        $tarea->Semana = intval(date('W',strtotime($tarea->Fecha)));
+        $tarea->save();
+
+        $tarea = new Tarea();
+        $tarea->Tarea = "Configuracion de reglas para separar el correo recibido de los 3 alias";
+        $tarea->agenda_tipo_id = 1;
+        $tarea->agenda_destinatario_id = 18;
+        $tarea->Tiempo = 30;
+        $tarea->Fecha = '2023/01/31';
+        $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
+        $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
+        $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
+        $tarea->Semana = intval(date('W',strtotime($tarea->Fecha)));
+        $tarea->save();
+
+        $tarea = new Tarea();
+        $tarea->Tarea = "Backup del buzon de Gema y reasignacion su licencia de Office365 a Alba";
+        $tarea->agenda_tipo_id = 1;
+        $tarea->agenda_destinatario_id = 6;
+        $tarea->Tiempo = 120;
+        $tarea->Fecha = '2023/02/01';
+        $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
+        $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
+        $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
+        $tarea->Semana = intval(date('W',strtotime($tarea->Fecha)));
+        $tarea->save();
+
+        $tarea = new Tarea();
+        $tarea->Tarea = "añadir k.laskowski888@wp.pl a la lista blanca de correo. Informe de Domain Health";
+        $tarea->agenda_tipo_id = 1;
+        $tarea->agenda_destinatario_id = 17;
+        $tarea->Tiempo = 30;
+        $tarea->Fecha = '2023/02/01';
+        $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
+        $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
+        $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
+        $tarea->Semana = intval(date('W',strtotime($tarea->Fecha)));
+        $tarea->save();
+
+        $tarea = new Tarea();
+        $tarea->Tarea = "Configuracion cuentas de Alba y programas y carpetas del portatil";
+        $tarea->agenda_tipo_id = 1;
+        $tarea->agenda_destinatario_id = 29;
+        $tarea->Tiempo = 120;
+        $tarea->Fecha = '2023/02/01';
+        $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
+        $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
+        $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
+        $tarea->Semana = intval(date('W',strtotime($tarea->Fecha)));
+        $tarea->save();
+
+        $tarea = new Tarea();
+        $tarea->Tarea = "Instalación y configuracion de MN y la cuenta de correo, sin acabar por problemas con el portatil";
+        $tarea->agenda_tipo_id = 1;
+        $tarea->agenda_destinatario_id = 28;
+        $tarea->Tiempo = 60;
+        $tarea->Fecha = '2023/02/02';
+        $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
+        $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
+        $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
+        $tarea->Semana = intval(date('W',strtotime($tarea->Fecha)));
+        $tarea->save();
+
+        $tarea = new Tarea();
+        $tarea->Tarea = "Configuración carpetas de Teams";
+        $tarea->agenda_tipo_id = 1;
+        $tarea->agenda_destinatario_id = 29;
+        $tarea->Tiempo = 10;
+        $tarea->Fecha = '2023/02/02';
+        $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
+        $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
+        $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
+        $tarea->Semana = intval(date('W',strtotime($tarea->Fecha)));
+        $tarea->save();
+
+        $tarea = new Tarea();
+        $tarea->Tarea = "Cofiguración de la cuenta de Office de Alexandra por el portal de Microsoft";
+        $tarea->agenda_tipo_id = 1;
+        $tarea->agenda_destinatario_id = 25;
+        $tarea->Tiempo = 30;
+        $tarea->Fecha = '2023/02/02';
+        $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
+        $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
+        $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
+        $tarea->Semana = intval(date('W',strtotime($tarea->Fecha)));
+        $tarea->save();
+
+        $tarea = new Tarea();
+        $tarea->Tarea = "Configuracion del correo en MN y revison de carpetas del servidor";
+        $tarea->agenda_tipo_id = 1;
+        $tarea->agenda_destinatario_id = 17;
+        $tarea->Tiempo = 30;
+        $tarea->Fecha = '2023/02/02';
+        $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
+        $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
+        $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
+        $tarea->Semana = intval(date('W',strtotime($tarea->Fecha)));
+        $tarea->save();
+
+        $tarea = new Tarea();
+        $tarea->Tarea = "Problema con Onedrive, no se pueden abrir los ficheros";
+        $tarea->agenda_tipo_id = 1;
+        $tarea->agenda_destinatario_id = 22;
+        $tarea->Tiempo = 30;
+        $tarea->Fecha = '2023/02/06';
+        $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
+        $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
+        $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
+        $tarea->Semana = intval(date('W',strtotime($tarea->Fecha)));
+        $tarea->save();
+
+        $tarea = new Tarea();
+        $tarea->Tarea = "Adobre acrobat reader no abre los pdf de algunas carpetas";
+        $tarea->agenda_tipo_id = 1;
+        $tarea->agenda_destinatario_id = 11;
+        $tarea->Tiempo = 30;
+        $tarea->Fecha = '2023/02/06';
+        $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
+        $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
+        $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
+        $tarea->Semana = intval(date('W',strtotime($tarea->Fecha)));
+        $tarea->save();
+
+        $tarea = new Tarea();
+        $tarea->Tarea = "Configuracion de la firma automatica para tlacorp";
+        $tarea->agenda_tipo_id = 1;
+        $tarea->agenda_destinatario_id = 29;
+        $tarea->Tiempo = 45;
+        $tarea->Fecha = '2023/02/06';
+        $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
+        $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
+        $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
+        $tarea->Semana = intval(date('W',strtotime($tarea->Fecha)));
+        $tarea->save();
+
+        $tarea = new Tarea();
+        $tarea->Tarea = "Revision virus";
+        $tarea->agenda_tipo_id = 1;
+        $tarea->agenda_destinatario_id = 21;
+        $tarea->Tiempo = 30;
+        $tarea->Fecha = '2023/02/06';
+        $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
+        $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
+        $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
+        $tarea->Semana = intval(date('W',strtotime($tarea->Fecha)));
+        $tarea->save();
+
+        $tarea = new Tarea();
+        $tarea->Tarea = "Configuración correo y alias en portatil y sobremesa";
+        $tarea->agenda_tipo_id = 1;
+        $tarea->agenda_destinatario_id = 30;
+        $tarea->Tiempo = 60;
+        $tarea->Fecha = '2023/02/07';
+        $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
+        $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
+        $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
+        $tarea->Semana = intval(date('W',strtotime($tarea->Fecha)));
+        $tarea->save();
+
+        $tarea = new Tarea();
+        $tarea->Tarea = "Diseño y configuración de firmas de correo en el servidor de Outlook365";
+        $tarea->agenda_tipo_id = 1;
+        $tarea->agenda_destinatario_id = 15;
+        $tarea->Tiempo = 90;
+        $tarea->Fecha = '2023/02/08';
+        $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
+        $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
+        $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
+        $tarea->Semana = intval(date('W',strtotime($tarea->Fecha)));
+        $tarea->save();
+
+        $tarea = new Tarea();
+        $tarea->Tarea = "Desinstalacion de office antiguo, instalacion de Office 365 , configuracion de la cuenta tlaconsultance.com y otra propia";
+        $tarea->agenda_tipo_id = 1;
+        $tarea->agenda_destinatario_id = 28;
+        $tarea->Tiempo = 60;
+        $tarea->Fecha = '2023/02/09';
+        $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
+        $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
+        $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
+        $tarea->Semana = intval(date('W',strtotime($tarea->Fecha)));
+        $tarea->save();
+
+        $tarea = new Tarea();
+        $tarea->Tarea = "Revison de la agenda de MN";
+        $tarea->agenda_tipo_id = 1;
+        $tarea->agenda_destinatario_id = 29;
+        $tarea->Tiempo = 20;
+        $tarea->Fecha = '2023/02/09';
+        $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
+        $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
+        $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
+        $tarea->Semana = intval(date('W',strtotime($tarea->Fecha)));
+        $tarea->save();
+
+        $tarea = new Tarea();
+        $tarea->Tarea = "Actualizacion de los datos personales en Office 365";
+        $tarea->agenda_tipo_id = 1;
+        $tarea->agenda_destinatario_id = 15;
+        $tarea->Tiempo = 30;
+        $tarea->Fecha = '2023/02/09';
+        $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
+        $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
+        $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
+        $tarea->Semana = intval(date('W',strtotime($tarea->Fecha)));
+        $tarea->save();
+
+        $tarea = new Tarea();
+        $tarea->Tarea = "Revisión de la vpn y error al abrir los documentos de word";
+        $tarea->agenda_tipo_id = 1;
+        $tarea->agenda_destinatario_id = 9;
+        $tarea->Tiempo = 30;
+        $tarea->Fecha = '2023/02/13';
+        $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
+        $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
+        $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
+        $tarea->Semana = intval(date('W',strtotime($tarea->Fecha)));
+        $tarea->save();
     }
 }

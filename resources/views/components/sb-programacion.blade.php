@@ -15,13 +15,9 @@
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body pt-0">
                             <ul class="btn-toggle-nav list-unstyled fw-normal pb-0 small acordeon">
-                                <li class='pb-1'><a href="#" class="link-secondary">Laravel</a></li>
-                                <li class='pb-1'><a href="#" class="link-secondary">Bootstrap</a></li>
-                                <li class='pb-1'><a href="#" class="link-secondary">Tailwind</a></li>
-                                <li class='pb-1'><a href="#" class="link-secondary">Python</a></li>
-                                <li class='pb-1'><a href="#" class="link-secondary">Django</a></li>
-                                <li class='pb-1'><a href="#" class="link-secondary rounded">Wordpress</a></li>
-                                <li class='pb-1'><a href="#" class="link-secondary">Php</a></li>
+                                @foreach ($subgrupos as $subgrupo)
+                                <li class='pb-1'><a href="#" class='link-secondary'>{{$subgrupo->Subgrupo}}</a></li>
+                                @endforeach
                             </ul>
                         </div>
                     </div>
@@ -66,5 +62,5 @@
             </div>
             <!-- /Acordion -->
 
-       
+
 </div>

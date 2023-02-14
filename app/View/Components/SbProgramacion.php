@@ -2,10 +2,12 @@
 
 namespace App\View\Components;
 
+use App\Models\Subgrupo;
 use Illuminate\View\Component;
 
 class SbProgramacion extends Component
 {
+    public $subgrupos;
     /**
      * Create a new component instance.
      *
@@ -13,7 +15,9 @@ class SbProgramacion extends Component
      */
     public function __construct()
     {
-        //
+        $subgrupos = Subgrupo::where('grupo_id',1)->get();
+
+        $this->subgrupos = $subgrupos;
     }
 
     /**

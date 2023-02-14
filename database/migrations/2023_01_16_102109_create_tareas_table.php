@@ -25,7 +25,11 @@ return new class extends Migration
                 ->references('id')
                 ->on('agenda_tipos')
                 ->onDelete('set null');
-            $table->foreign('agenda_destinatario_id')->references('id')->on('agenda_destinatarios')->onDelete('set null');
+            $table->foreign('agenda_destinatario_id')
+                ->references('id')
+                ->on('agenda_destinatarios')
+                ->onDelete('set null');
+
             $table->integer('elefante_id')->nullable();
             $table->Integer('Tiempo')->nullable();
             $table->Integer('Tiempoestimado')->nullable();

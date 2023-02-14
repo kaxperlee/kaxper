@@ -12,7 +12,7 @@
                 <div class="accordion-body pt-2">
                     <a href="{{route('agenda.indexDay',date('Y-m-d'))}}"><i class="fa-solid fa-calendar-day fa-2xl text-secondary pe-3"></i></a>
                     <a href="{{route('agenda.indexWeek',date('W'))}}"><i class="fa-solid fa-calendar-week fa-2xl text-secondary pe-3"></i></a>
-                    <i class="fa-solid fa-calendar-days fa-2xl text-secondary"></i>
+                    <a href="{{route('agenda.index',date('Y-m-d'))}}"><i class="fa-solid fa-calendar-days fa-2xl text-secondary"></i></a>
 
                 </div>
             </div>

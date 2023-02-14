@@ -17,11 +17,11 @@ class AgendaController extends Controller
         $ano = intval(date('y',strtotime($hoy)));
         $semana = intval(date('W',strtotime($hoy)));
         //return $dia.'-'.$mes.'-'.$ano;
-        $tareas = Tarea::where('Ano',$ano)->get();
+        $tareas = Tarea::where('Ano',$ano)->where('Mes',$mes)->get();
         //return $tareas;
         return view('agenda.index',compact('tareas','sinfechas'));
     }
-    public function indexWeek($fecha = 4)
+    public function indexWeek($fecha = '')
     {
         $hoy = date('Y-m-d');
         $sinfechas = Tarea::where('agenda_tipo_id',5)->orWhere('agenda_tipo_id',3)->get();

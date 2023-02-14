@@ -1,15 +1,15 @@
 @extends('layouts.main')
 
 @section('sidebar')
-   
+
     <x-sb-programacion />
-       
+
 @endsection
 
 @section('menu')
-   
+
     <x-menu />
-       
+
 @endsection
 
 @section('body')
@@ -17,14 +17,14 @@
     <div class="album py-2 bg-dark">
         <div class="container-fluid">
             <div class="row g-4">
-            @foreach ($codigos as $codigo)
+            @foreach ($enlaces as $enlace)
                 <div class="col-3">
                     <div class="card" style="background-color:#222">
-                        <img src="{{asset('images/programacion/'.$codigo->id.'.jpg')}}" class="" class="img-fluid" width="" alt="Laravel">
+                        <img src="{{asset('images/'.$enlace->id.'.jpg')}}" class="" class="img-fluid" width="" alt="Laravel">
                         <div class="card-body">
-                            <h5 class="card-title text-secondary">{{$codigo->Nombre}}</h5>
-                            <p class="card-text text-secondary">{{$codigo->Descripcion}}</p>
-                            <a href="{{$codigo->Enlace}}" class="btn btn-secondary">Go</a>
+                            <h5 class="card-title text-secondary">{{$enlace->Titulo}}</h5>
+                            <p class="card-text text-secondary">{{$enlace->Descripcion}}</p>
+                            <a href="{{$enlace->Enlace}}" Target="_blank" class="btn btn-secondary">Go</a>
                         </div>
                     </div>
                 </div>

@@ -4,13 +4,14 @@ namespace App\View\Components;
 
 use App\Models\LinkEnlace;
 use App\Models\LinkGrupo;
+use App\Models\Subgrupo;
 use Illuminate\View\Component;
 
 class SbEnlaces extends Component
 {
+    public $subgrupos;
 
-    public $resultados;
-    public $selectgrupos;
+
     /**
      * Create a new component instance.
      *
@@ -18,11 +19,9 @@ class SbEnlaces extends Component
      */
     public function __construct()
     {
-        $resultados = LinkGrupo::all();
-        $selectgrupos = LinkGrupo::pluck('Grupo','id');
+        $subgrupos = Subgrupo::where('grupo_id',4)->get();
 
-        $this->resultados = $resultados;
-        $this->selectgrupos = $selectgrupos;
+        $this->subgrupos = $subgrupos;
     }
 
     /**

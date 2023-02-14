@@ -5,7 +5,9 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProgramacionController;
 use App\Http\Controllers\EnlacesController;
 use App\Http\Controllers\BibliotecaController;
+use App\Http\Controllers\PianoController;
 use App\Http\Controllers\TareaController;
+use App\Http\Controllers\TecladoController;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,7 +20,7 @@ use App\Http\Controllers\TareaController;
 |
 */
 
-Route::middleware(['auth:sanctum', 'verified'])->get('/programacion', [ProgramacionController::class, 'index']);
+Route::middleware(['auth:sanctum', 'verified'])->get('/programacion', [ProgramacionController::class, 'index'])->name('programacion.index');
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/biblioteca', [BibliotecaController::class, 'index']);
 
@@ -32,6 +34,9 @@ Route::middleware(['auth:sanctum', 'verified'])->post('/agenda', [AgendaControll
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/tarea', [TareaController ::class, 'index'])->name('tarea.index');
 Route::middleware(['auth:sanctum', 'verified'])->post('/tarea', [TareaController::class, 'store'])->name('tarea.store');
+
+Route::middleware(['auth:sanctum', 'verified'])->get('/teclado', [TecladoController::class, 'index'])->name('teclado.index');
+Route::middleware(['auth:sanctum', 'verified'])->get('/teclado/fichero', [TecladoController::class, 'fichero'])->name('teclado.fichero');
 
 Route::get('/', function () {
     return view('inicio');

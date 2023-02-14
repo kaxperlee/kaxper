@@ -42,12 +42,12 @@ class AgendaDestinatarioSeeder extends Seeder
 
         $agendadestinatario = new AgendaDestinatario();
         $agendadestinatario->Nombre = "Gema";
-        $agendadestinatario->Empresa = "";
+        $agendadestinatario->Empresa = "Tlacorp";
         $agendadestinatario->save();
 
         $agendadestinatario = new AgendaDestinatario();
         $agendadestinatario->Nombre = "Lorena";
-        $agendadestinatario->Empresa = "Tla Corp";
+        $agendadestinatario->Empresa = "Tlacorp";
         $agendadestinatario->save();
 
         $agendadestinatario = new AgendaDestinatario();
@@ -57,7 +57,7 @@ class AgendaDestinatarioSeeder extends Seeder
 
         $agendadestinatario = new AgendaDestinatario();
         $agendadestinatario->Nombre = "Angels";
-        $agendadestinatario->Empresa = "Tla Corp";
+        $agendadestinatario->Empresa = "Tlacorp";
         $agendadestinatario->save();
 
         $agendadestinatario = new AgendaDestinatario();
@@ -67,27 +67,27 @@ class AgendaDestinatarioSeeder extends Seeder
 
         $agendadestinatario = new AgendaDestinatario();
         $agendadestinatario->Nombre = "Suzanne";
-        $agendadestinatario->Empresa = "Tla Corp";
+        $agendadestinatario->Empresa = "Tlacorp";
         $agendadestinatario->save();
 
         $agendadestinatario = new AgendaDestinatario();
         $agendadestinatario->Nombre = "Macarena";
-        $agendadestinatario->Empresa = "Tla Corp";
+        $agendadestinatario->Empresa = "Tlacorp";
         $agendadestinatario->save();
 
         $agendadestinatario = new AgendaDestinatario();
         $agendadestinatario->Nombre = "Johana";
-        $agendadestinatario->Empresa = "Tla Corp";
+        $agendadestinatario->Empresa = "Tlacorp";
         $agendadestinatario->save();
 
         $agendadestinatario = new AgendaDestinatario();
         $agendadestinatario->Nombre = "Ignacio";
-        $agendadestinatario->Empresa = "Tla Corp";
+        $agendadestinatario->Empresa = "Tlacorp";
         $agendadestinatario->save();
 
         $agendadestinatario = new AgendaDestinatario();
         $agendadestinatario->Nombre = "Tla Corp";
-        $agendadestinatario->Empresa = "Tla Corp";
+        $agendadestinatario->Empresa = "Tlacorp";
         $agendadestinatario->save();
 
         $agendadestinatario = new AgendaDestinatario();
@@ -97,32 +97,32 @@ class AgendaDestinatarioSeeder extends Seeder
 
         $agendadestinatario = new AgendaDestinatario();
         $agendadestinatario->Nombre = "Eva";
-        $agendadestinatario->Empresa = "Tla Corp";
+        $agendadestinatario->Empresa = "Tlacorp";
         $agendadestinatario->save();
 
         $agendadestinatario = new AgendaDestinatario();
         $agendadestinatario->Nombre = "Nuria";
-        $agendadestinatario->Empresa = "Tla Corp";
+        $agendadestinatario->Empresa = "Legalsmart";
         $agendadestinatario->save();
 
         $agendadestinatario = new AgendaDestinatario();
         $agendadestinatario->Nombre = "Aolani";
-        $agendadestinatario->Empresa = "Tla Corp";
+        $agendadestinatario->Empresa = "Tlacorp";
         $agendadestinatario->save();
 
         $agendadestinatario = new AgendaDestinatario();
         $agendadestinatario->Nombre = "Esther Bolivar";
-        $agendadestinatario->Empresa = "Tla Corp";
+        $agendadestinatario->Empresa = "Tlacorp";
         $agendadestinatario->save();
 
         $agendadestinatario = new AgendaDestinatario();
         $agendadestinatario->Nombre = "Daniel";
-        $agendadestinatario->Empresa = "Tla Corp";
+        $agendadestinatario->Empresa = "Tlacorp";
         $agendadestinatario->save();
 
         $agendadestinatario = new AgendaDestinatario();
         $agendadestinatario->Nombre = "Rubén";
-        $agendadestinatario->Empresa = "Tla Corp";
+        $agendadestinatario->Empresa = "Tlacorp";
         $agendadestinatario->save();
 
         $agendadestinatario = new AgendaDestinatario();
@@ -137,12 +137,32 @@ class AgendaDestinatarioSeeder extends Seeder
 
         $agendadestinatario = new AgendaDestinatario();
         $agendadestinatario->Nombre = "Noelia";
-        $agendadestinatario->Empresa = "Tla Corp";
+        $agendadestinatario->Empresa = "Legalsmart";
         $agendadestinatario->save();
 
         $agendadestinatario = new AgendaDestinatario();
         $agendadestinatario->Nombre = "Judith";
-        $agendadestinatario->Empresa = "Antonio Martinez";
+        $agendadestinatario->Empresa = "Antonio Martínez";
+        $agendadestinatario->save();
+
+        $agendadestinatario = new AgendaDestinatario();
+        $agendadestinatario->Nombre = "Legalsmart";
+        $agendadestinatario->Empresa = "Legalsmart";
+        $agendadestinatario->save();
+
+        $agendadestinatario = new AgendaDestinatario();
+        $agendadestinatario->Nombre = "Salvador Trives";
+        $agendadestinatario->Empresa = "Tlaconsultance";
+        $agendadestinatario->save();
+
+        $agendadestinatario = new AgendaDestinatario();
+        $agendadestinatario->Nombre = "Alba";
+        $agendadestinatario->Empresa = "Tlacorp";
+        $agendadestinatario->save();
+
+        $agendadestinatario = new AgendaDestinatario();
+        $agendadestinatario->Nombre = "Antonio Martínez";
+        $agendadestinatario->Empresa = "Antonio Martínez";
         $agendadestinatario->save();
     }
 }

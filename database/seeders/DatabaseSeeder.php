@@ -70,40 +70,12 @@ class DatabaseSeeder extends Seeder
         $user->password = Hash::make('password');
         $user->save();
 
-        $user = new LinkGrupo();
-        $user->Grupo = "Peliculas";
-        $user->save();
-
-        $user = new LinkGrupo();
-        $user->Grupo = "Juegos PC";
-        $user->save();
-
-        $user = new LinkGrupo();
-        $user->Grupo = "Piano";
-        $user->save();
-
-        $user = new LinkGrupo();
-        $user->Grupo = "Blogs";
-        $user->save();
-
-        $user = new LinkGrupo();
-        $user->Grupo = "VSTi";
-        $user->save();
-
-        $user = new LinkEnlace();
-        $user->id_link_grupos = 1;
-        $user->Nombre = 'Naranja Torrent';
-        $user->Enlace = 'https://naranjatorrent.com';
-        $user->save();
-
-        $user = new LinkEnlace();
-        $user->id_link_grupos = 1;
-        $user->Nombre = 'Info Maniakos';
-        $user->Enlace = 'https://infomaniakos.net/';
-        $user->save();
-
+        $this->call(GrupoSeeder::class);
+        $this->call(SubgrupoSeeder::class);
         $this->call(AgendaDestinatarioSeeder::class);
         $this->call(AgendaTipoSeeder::class);
+        $this->call(LinkTipoSeeder::class);
         $this->call(TareaSeeder::class);
+        $this->call(LinkSeeder::class);
     }
 }
