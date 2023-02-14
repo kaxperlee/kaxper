@@ -20,7 +20,7 @@
             @foreach ($enlaces as $enlace)
                 <div class="col-3">
                     <div class="card" style="background-color:#222">
-                        <img src="{{asset('images/'.$enlace->id.'.jpg')}}" class="" class="img-fluid" width="" alt="Laravel">
+                        <img src="{{asset('images/Programacion/'.$enlace->id.'.jpg')}}" class="" class="img-fluid" width="" alt="Laravel">
                         <div class="card-body">
                             <h5 class="card-title text-secondary">{{$enlace->Titulo}}</h5>
                             <p class="card-text text-secondary">{{$enlace->Descripcion}}</p>
