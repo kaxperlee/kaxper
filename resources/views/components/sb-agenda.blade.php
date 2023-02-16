@@ -1,10 +1,11 @@
 <div>
     <div class="mb-4" style="border-bottom: 1px solid #333"></div>
+
     <!-- Acordion -->
     <div class="accordion mb-3" id="accordionExample">
         <div class="accordion-item">
             <h2 class="accordion-header" id="headingOne">
-                <button class="accordion-button text-secondary fs-5 py-2" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                <button class="accordion-button text-secondary fs-4 py-2" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                     Agenda
                 </button>
             </h2>
@@ -15,6 +16,7 @@
                     <a href="{{route('agenda.index',date('Y-m-d'))}}"><i class="fa-solid fa-calendar-days fa-2xl text-secondary"></i></a>
 
                 </div>
+                <x-aux-calendar fontsize="fs-6" dia="" mes="" ano="" />
             </div>
         </div>
     </div>
@@ -23,7 +25,7 @@
     <div class="accordion" id="accordionExample2">
         <div class="accordion-item">
             <h2 class="accordion-header" id="headingtwo">
-                <button class="accordion-button text-secondary fs-5 py-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                <button class="accordion-button text-secondary fs-4 py-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
                     Nueva tarea
                 </button>
             </h2>

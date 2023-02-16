@@ -30,6 +30,7 @@ Route::middleware(['auth:sanctum', 'verified'])->post('/enlaces', [EnlacesContro
 Route::middleware(['auth:sanctum', 'verified'])->get('/agenda', [AgendaController::class, 'index'])->name('agenda.index');
 Route::middleware(['auth:sanctum', 'verified'])->get('/agenda-day/{fecha}', [AgendaController::class, 'indexDay'])->name('agenda.indexDay');
 Route::middleware(['auth:sanctum', 'verified'])->get('/agenda-week/{fecha}', [AgendaController::class, 'indexWeek'])->name('agenda.indexWeek');
+Route::middleware(['auth:sanctum', 'verified'])->get('/agenda/semana/{fecha}', [AgendaController::class, 'semana'])->name('agenda.semana');
 Route::middleware(['auth:sanctum', 'verified'])->post('/agenda', [AgendaController::class, 'store'])->name('agenda.store');
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/tarea', [TareaController ::class, 'index'])->name('tarea.index');
@@ -38,7 +39,7 @@ Route::middleware(['auth:sanctum', 'verified'])->post('/tarea', [TareaController
 Route::middleware(['auth:sanctum', 'verified'])->get('/teclado', [TecladoController::class, 'index'])->name('teclado.index');
 Route::middleware(['auth:sanctum', 'verified'])->get('/teclado/fichero', [TecladoController::class, 'fichero'])->name('teclado.fichero');
 
-Route::get('/', function () {
+Route::middleware(['auth:sanctum', 'verified'])->get('/', function () {
     return view('inicio');
 });
 

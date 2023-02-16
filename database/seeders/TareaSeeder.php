@@ -1258,5 +1258,29 @@ class TareaSeeder extends Seeder
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
         $tarea->Semana = intval(date('W',strtotime($tarea->Fecha)));
         $tarea->save();
+
+        $tarea = new Tarea();
+        $tarea->Tarea = "Revisión agenda de MN";
+        $tarea->agenda_tipo_id = 1;
+        $tarea->agenda_destinatario_id = 9;
+        $tarea->Tiempo = 10;
+        $tarea->Fecha = '2023/02/14';
+        $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
+        $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
+        $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
+        $tarea->Semana = intval(date('W',strtotime($tarea->Fecha)));
+        $tarea->save();
+
+        $tarea = new Tarea();
+        $tarea->Tarea = "Instalacion Pdf Pro y configuracion de la firma de correo";
+        $tarea->agenda_tipo_id = 1;
+        $tarea->agenda_destinatario_id = 9;
+        $tarea->Tiempo = 30;
+        $tarea->Fecha = '2023/02/15';
+        $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
+        $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
+        $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
+        $tarea->Semana = intval(date('W',strtotime($tarea->Fecha)));
+        $tarea->save();
     }
 }

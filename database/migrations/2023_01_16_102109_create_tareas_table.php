@@ -20,14 +20,21 @@ return new class extends Migration
             $table->string('Descripcion',1000)->nullable();
             $table->unsignedBigInteger('agenda_tipo_id')->nullable();
             $table->unsignedBigInteger('agenda_destinatario_id')->nullable();
+            $table->unsignedBigInteger('fecha_id')->nullable();
 
             $table->foreign('agenda_tipo_id')
                 ->references('id')
                 ->on('agenda_tipos')
                 ->onDelete('set null');
+
             $table->foreign('agenda_destinatario_id')
                 ->references('id')
                 ->on('agenda_destinatarios')
+                ->onDelete('set null');
+
+            $table->foreign('fecha_id')
+                ->references('id')
+                ->on('fechas')
                 ->onDelete('set null');
 
             $table->integer('elefante_id')->nullable();

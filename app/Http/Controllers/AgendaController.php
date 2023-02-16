@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Fecha;
 use App\Models\Tarea;
 use Illuminate\Http\Request;
 
@@ -33,6 +34,14 @@ class AgendaController extends Controller
         $tareas = Tarea::where('Ano',$ano)->where('Semana',intval($fecha))->get();
         //return $tareas;
         return view('agenda.index',compact('tareas','sinfechas'));
+    }
+
+    public function semana($fecha = '')
+    {
+        $hoy = date('Y-m-d');
+        $tareas = Fecha::where('semana',7)->where('ano',2023)->has('tareas')->with('tareas')->get();
+
+        return view('agenda.semana',compact('tareas'));
     }
 
     public function indexDay($fecha = '2023/01/23')

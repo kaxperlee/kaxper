@@ -21,11 +21,13 @@ class TareaController extends Controller
         $tareas->Descripcion = $request->Descripcion;
         $tareas->agenda_tipo_id = $request->agenda_tipo_id;
         $tareas->Tiempoestimado = $request->Tiempoestimado;
+        $tareas->Tiempo = $request->Tiempoestimado;
         $tareas->Fecha = $request->Fecha;
-        $tareas->Dia = intval(date('d',strtotime($tareas->Fecha)));
-        $tareas->Mes = intval(date('m',strtotime($tareas->Fecha)));
-        $tareas->Ano = intval(date('y',strtotime($tareas->Fecha)));
-        $tareas->Semana = intval(date('W',strtotime($tareas->Fecha)));
+        $tareas->fecha_id = strtotime($request->Fecha)/86400;
+        //$tareas->Dia = intval(date('d',strtotime($tareas->Fecha)));
+        //$tareas->Mes = intval(date('m',strtotime($tareas->Fecha)));
+        //$tareas->Ano = intval(date('y',strtotime($tareas->Fecha)));
+        //$tareas->Semana = intval(date('W',strtotime($tareas->Fecha)));
         $tareas->agenda_destinatario_id = $request->agenda_destinatario_id;
         $tareas->save();
 

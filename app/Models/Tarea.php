@@ -18,4 +18,9 @@ class Tarea extends Model
     public function agendaTipo(){
         return $this->belongsTo(AgendaTipo::class);
     }
+
+    //Relacion uno a muchos
+    public function fecha(){
+        return $this->belongsTo(Fecha::class);
+    }
 }

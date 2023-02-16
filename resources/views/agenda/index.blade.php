@@ -34,6 +34,7 @@
                         <td align="right" colspan="4">Total tiempo empleado: {{intdiv($tareas->where('agenda_tipo_id',1)->sum('Tiempo'), 60)}} Horas {{$tareas->where('agenda_tipo_id',1)->sum('Tiempo')%60}} minutos</td>
                     </tr>
                 </table>
+
             </div>
         </div>
         <div class="col-6">
@@ -77,6 +78,7 @@
                         </tr>
                     @endforeach
                 </table>
+
             </div>
         </div>
         <div class="col-12">
