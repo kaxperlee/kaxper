@@ -20,6 +20,7 @@ return new class extends Migration
             $table->date('fecha');
             $table->integer('dia');
             $table->integer('mes');
+            $table->string('mesnombre',3);
             $table->integer('ano');
             $table->integer('semana');
             $table->integer('trimestre');
@@ -32,12 +33,14 @@ return new class extends Migration
         $date = new DateTime('2023-01-01');
 
         // Crea un bucle para insertar un registro por día hasta el último día de 2023
+        setlocale(LC_TIME, 'es_ES');
         while ($date->format('Y') == 2023) {
             DB ::table('fechas')->insert([
                 'id'  => strtotime($date->format('Y-m-d'))/86400,
                 'fecha' => $date->format('Y-m-d'),
                 'dia' => $date->format('d'),
                 'mes' => $date->format('m'),
+                'mesnombre' => $date->format('M'),
                 'ano' => $date->format('Y'),
                 'semana' => $date->format('W'),
                 'trimestre' => $this->trimestre($date->format('Y-m-d')),

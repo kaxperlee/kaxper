@@ -20,23 +20,22 @@
                 @for ($i = 0; $i < $datos['primernumerodiames']-1; $i++)
                 <td class="text-secondary" style="text-align: center"></td>
                 @endfor
-                <td class="text-secondary @if ($datos['hoy'] === $dia->fecha) bg-secondary text-black @endif" style="text-align: center">{{$dia->dia}}</td>
+                <td class="text-secondary kxp {{$dia->formato}} " style="text-align: center"><a class="{{$dia->formato}}" href="{{route('agenda.indexday',$dia->fecha)}}">{{$dia->dia}}</a></td>
             @elseif ($loop->last)
-                <td class="text-secondary @if ($datos['hoy'] === $dia->fecha) bg-secondary text-black @endif" style="text-align: center">{{$dia->dia}}</td>
+                <td class="text-secondary kxp {{$dia->formato}} " style="text-align: center"><a class="{{$dia->formato}}" href="{{route('agenda.indexday',$dia->fecha)}}">{{$dia->dia}}</a></td>
                 @for ($i = 0; $i < 7-$dia->diasemana; $i++)
                     <td class="text-secondary" style="text-align: center"></td>
                 @endfor
                 </tr>
             @else
                 @if ($dia->diasemana === 1)
-                    </tr><tr><td class="text-secondary @if ($datos['hoy'] === $dia->fecha) bg-secondary text-black @endif" style="text-align: center">{{$dia->dia}}</td>
+                    </tr><tr><td class="text-secondary kxp {{$dia->formato}} " style="text-align: center"><a class="{{$dia->formato}}" href="{{route('agenda.indexday',$dia->fecha)}}">{{$dia->dia}}</a></td>
                 @elseif ($dia->diasemana === 7)
-                    <td class="text-secondary @if ($datos['hoy'] === $dia->fecha) bg-secondary text-black @endif" style="text-align: center">{{$dia->dia}}</td></tr>
+                    <td  class="text-secondary kxp {{$dia->formato}} " style="text-align: center"><a class="{{$dia->formato}}" href="{{route('agenda.indexday',$dia->fecha)}}">{{$dia->dia}}</a></td></tr>
                 @elseif ($dia->diasemana > 1 and $dia->diasemana < 7)
-                    <td class="text-secondary {{$dia->formato}}" style="text-align: center">{{$dia->dia}}</td>
+                    <td class="text-secondary kxp {{$dia->formato}}" style="text-align: center"><a class="{{$dia->formato}} " href="{{route('agenda.indexday',$dia->fecha)}}">{{$dia->dia}}</a></td>
                 @endif
             @endif
         @endforeach
     </table>
-    <p class="text-secondary">{{$calendario}}</p>
 </div>

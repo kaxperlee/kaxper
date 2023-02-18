@@ -13,12 +13,17 @@
 @endsection
 
 @section('body')
+
 <h4 class="text-secondary">AGENDA Diaria</h4>
+<table>
     @foreach ($tareas as $tarea)
-        @foreach ($tarea->tareas as $tar)
-            <h3>- {{$tar->Tarea}}</h3>
-        @endforeach
-
+    <tr>
+        <td>{{$tarea->Fecha}} </td>
+        <td> {{$tarea->agendaTipo->Tipo}}</td>
+        <td>{{$tarea->Tarea}}</td>
+        <td>{{$tarea->Tiempo}}</td>
+    
+    </tr>
     @endforeach
-
+</table>
 @endsection

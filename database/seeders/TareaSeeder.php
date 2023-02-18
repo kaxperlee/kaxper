@@ -22,6 +22,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 6;
         $tarea->Tiempo = 30;
         $tarea->Fecha = '2023/01/02';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -34,6 +35,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 7;
         $tarea->Tiempo = 30;
         $tarea->Fecha = '2023/01/02';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -46,6 +48,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 1;
         $tarea->Tiempo = 30;
         $tarea->Fecha = '2023/01/02';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -58,6 +61,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 4;
         $tarea->Tiempo = 30;
         $tarea->Fecha = '2023/01/02';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -70,6 +74,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 8;
         $tarea->Tiempo = 10;
         $tarea->Fecha = '2023/01/02';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -82,6 +87,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 9;
         $tarea->Tiempo = 30;
         $tarea->Fecha = '2023/01/03';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -94,6 +100,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 1;
         $tarea->Tiempo = 45;
         $tarea->Fecha = '2023/01/03';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -106,6 +113,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 3;
         $tarea->Tiempo = 45;
         $tarea->Fecha = '2023/01/03';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -118,6 +126,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 9;
         $tarea->Tiempo = 20;
         $tarea->Fecha = '2023/01/03';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -130,6 +139,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 9;
         $tarea->Tiempo = 20;
         $tarea->Fecha = '2023/01/03';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -142,6 +152,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 9;
         $tarea->Tiempo = 15;
         $tarea->Fecha = '2023/01/03';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -154,6 +165,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 10;
         $tarea->Tiempo = 10;
         $tarea->Fecha = '2023/01/03';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -166,6 +178,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 9;
         $tarea->Tiempo = 20;
         $tarea->Fecha = '2023/01/04';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -178,6 +191,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 11;
         $tarea->Tiempo = 20;
         $tarea->Fecha = '2023/01/04';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -190,6 +204,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 12;
         $tarea->Tiempo = 20;
         $tarea->Fecha = '2023/01/04';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -202,6 +217,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 3;
         $tarea->Tiempo = 20;
         $tarea->Fecha = '2023/01/05';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -214,6 +230,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 6;
         $tarea->Tiempo = 20;
         $tarea->Fecha = '2023/01/05';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -226,6 +243,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 13;
         $tarea->Tiempo = 20;
         $tarea->Fecha = '2023/01/05';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -238,6 +256,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 7;
         $tarea->Tiempo = 20;
         $tarea->Fecha = '2023/01/05';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -250,6 +269,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 9;
         $tarea->Tiempo = 20;
         $tarea->Fecha = '2023/01/05';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -262,6 +282,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 14;
         $tarea->Tiempo = 20;
         $tarea->Fecha = '2023/01/05';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -274,6 +295,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 1;
         $tarea->Tiempo = 20;
         $tarea->Fecha = '2023/01/05';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -286,6 +308,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 15;
         $tarea->Tiempo = 120;
         $tarea->Fecha = '2023/01/05';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -298,6 +321,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 9;
         $tarea->Tiempo = 60;
         $tarea->Fecha = '2023/01/05';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -310,6 +334,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 15;
         $tarea->Tiempo = 20;
         $tarea->Fecha = '2023/01/05';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -322,6 +347,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 15;
         $tarea->Tiempo = 180;
         $tarea->Fecha = '2023/01/05';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -334,6 +360,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 15;
         $tarea->Tiempo = 20;
         $tarea->Fecha = '2023/01/05';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -346,6 +373,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 1;
         $tarea->Tiempo = 20;
         $tarea->Fecha = '2023/01/09';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -358,6 +386,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 5;
         $tarea->Tiempo = 20;
         $tarea->Fecha = '2023/01/09';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -370,6 +399,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 20;
         $tarea->Tiempo = 20;
         $tarea->Fecha = '2023/01/09';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -382,6 +412,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 19;
         $tarea->Tiempo = 20;
         $tarea->Fecha = '2023/01/09';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -394,6 +425,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 3;
         $tarea->Tiempo = 240;
         $tarea->Fecha = '2023/01/13';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -406,6 +438,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 17;
         $tarea->Tiempo = 20;
         $tarea->Fecha = '2023/01/10';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -419,6 +452,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 18;
         $tarea->Tiempo = 60;
         $tarea->Fecha = '2023/01/10';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -431,6 +465,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 21;
         $tarea->Tiempo = 20;
         $tarea->Fecha = '2023/01/10';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -443,6 +478,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 19;
         $tarea->Tiempo = 40;
         $tarea->Fecha = '2023/01/11';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -455,6 +491,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 9;
         $tarea->Tiempo = 10;
         $tarea->Fecha = '2023/01/11';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -467,6 +504,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 13;
         $tarea->Tiempo = 20;
         $tarea->Fecha = '2023/01/11';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -479,6 +517,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 17;
         $tarea->Tiempo = 20;
         $tarea->Fecha = '2023/01/11';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -491,6 +530,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 1;
         $tarea->Tiempo = 30;
         $tarea->Fecha = '2023/01/12';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -503,6 +543,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 6;
         $tarea->Tiempo = 40;
         $tarea->Fecha = '2023/01/12';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -515,6 +556,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 3;
         $tarea->Tiempo = 30;
         $tarea->Fecha = '2023/01/13';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -527,6 +569,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 1;
         $tarea->Tiempo = 90;
         $tarea->Fecha = '2023/01/13';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -539,6 +582,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 22;
         $tarea->Tiempo = 90;
         $tarea->Fecha = '2023/01/16';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -551,6 +595,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 5;
         $tarea->Tiempo = 20;
         $tarea->Fecha = '2023/01/16';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -563,6 +608,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 17;
         $tarea->Tiempo = 20;
         $tarea->Fecha = '2023/01/17';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -575,6 +621,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 22;
         $tarea->Tiempo = 30;
         $tarea->Fecha = '2023/01/17';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -587,6 +634,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 9;
         $tarea->Tiempo = 30;
         $tarea->Fecha = '2023/01/17';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -599,6 +647,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 3;
         $tarea->Tiempo = 30;
         $tarea->Fecha = '2023/01/17';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -611,6 +660,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 23;
         $tarea->Tiempo = 45;
         $tarea->Fecha = '2023/01/17';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -623,6 +673,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 24;
         $tarea->Tiempo = 45;
         $tarea->Fecha = '2023/01/17';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -635,6 +686,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 22;
         $tarea->Tiempo = 20;
         $tarea->Fecha = '2023/01/18';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -647,6 +699,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 5;
         $tarea->Tiempo = 20;
         $tarea->Fecha = '2023/01/18';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -659,6 +712,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 9;
         $tarea->Tiempo = 20;
         $tarea->Fecha = '2023/01/18';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -671,6 +725,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 21;
         $tarea->Tiempo = 20;
         $tarea->Fecha = '2023/01/19';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -683,6 +738,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 3;
         $tarea->Tiempo = 15;
         $tarea->Fecha = '2023/01/19';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -695,6 +751,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 9;
         $tarea->Tiempo = 15;
         $tarea->Fecha = '2023/01/19';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -707,6 +764,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 13;
         $tarea->Tiempo = 15;
         $tarea->Fecha = '2023/01/19';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -719,6 +777,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 25;
         $tarea->Tiempo = 30;
         $tarea->Fecha = '2023/01/20';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -731,6 +790,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 26;
         $tarea->Tiempo = 20;
         $tarea->Fecha = '2023/01/20';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -744,6 +804,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 6;
         $tarea->Tiempo = 30;
         $tarea->Fecha = '2023/01/20';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -807,6 +868,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 18;
         $tarea->Tiempo = 20;
         $tarea->Fecha = '2023/01/23';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -843,6 +905,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 16;
         $tarea->Tiempo = 45;
         $tarea->Fecha = '2023/01/23';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -856,6 +919,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 1;
         $tarea->Tiempo = 20;
         $tarea->Fecha = '2023/01/24';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -868,6 +932,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 19;
         $tarea->Tiempo = 30;
         $tarea->Fecha = '2023/01/24';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -880,6 +945,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 6;
         $tarea->Tiempo = 45;
         $tarea->Fecha = '2023/01/24';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -892,6 +958,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 16;
         $tarea->Tiempo = 40;
         $tarea->Fecha = '2023/01/25';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -904,6 +971,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 11;
         $tarea->Tiempo = 10;
         $tarea->Fecha = '2023/01/26';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -916,6 +984,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 9;
         $tarea->Tiempo = 10;
         $tarea->Fecha = '2023/01/26';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -928,6 +997,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 2;
         $tarea->Tiempo = 10;
         $tarea->Fecha = '2023/01/26';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -940,6 +1010,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 4;
         $tarea->Tiempo = 30;
         $tarea->Fecha = '2023/01/27';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -951,7 +1022,8 @@ class TareaSeeder extends Seeder
         $tarea->agenda_tipo_id = 1;
         $tarea->agenda_destinatario_id = 15;
         $tarea->Tiempoestimado = 40;
-        $tarea->Fecha = '2023/01/27';
+        $tarea->Fecha = '2023/01/27'; 
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -964,6 +1036,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 5;
         $tarea->Tiempoestimado = 20;
         $tarea->Fecha = '2023/01/27';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -977,6 +1050,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 6;
         $tarea->Tiempo = 10;
         $tarea->Fecha = '2023/01/30';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -989,6 +1063,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 9;
         $tarea->Tiempo = 10;
         $tarea->Fecha = '2023/01/30';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -1001,6 +1076,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 12;
         $tarea->Tiempo = 20;
         $tarea->Fecha = '2023/01/30';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -1013,6 +1089,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 27;
         $tarea->Tiempo = 45;
         $tarea->Fecha = '2023/01/31';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -1025,6 +1102,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 6;
         $tarea->Tiempo = 20;
         $tarea->Fecha = '2023/01/31';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -1037,6 +1115,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 18;
         $tarea->Tiempo = 40;
         $tarea->Fecha = '2023/01/31';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -1049,6 +1128,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 18;
         $tarea->Tiempo = 30;
         $tarea->Fecha = '2023/01/31';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -1061,6 +1141,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 6;
         $tarea->Tiempo = 120;
         $tarea->Fecha = '2023/02/01';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -1068,11 +1149,12 @@ class TareaSeeder extends Seeder
         $tarea->save();
 
         $tarea = new Tarea();
-        $tarea->Tarea = "añadir k.laskowski888@wp.pl a la lista blanca de correo. Informe de Domain Health";
+        $tarea->Tarea = "Añadir k.laskowski888@wp.pl a la lista blanca de correo. Informe de Domain Health";
         $tarea->agenda_tipo_id = 1;
         $tarea->agenda_destinatario_id = 17;
         $tarea->Tiempo = 30;
         $tarea->Fecha = '2023/02/01';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -1085,6 +1167,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 29;
         $tarea->Tiempo = 120;
         $tarea->Fecha = '2023/02/01';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -1097,6 +1180,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 28;
         $tarea->Tiempo = 60;
         $tarea->Fecha = '2023/02/02';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -1109,6 +1193,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 29;
         $tarea->Tiempo = 10;
         $tarea->Fecha = '2023/02/02';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -1121,6 +1206,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 25;
         $tarea->Tiempo = 30;
         $tarea->Fecha = '2023/02/02';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -1133,6 +1219,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 17;
         $tarea->Tiempo = 30;
         $tarea->Fecha = '2023/02/02';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -1145,6 +1232,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 22;
         $tarea->Tiempo = 30;
         $tarea->Fecha = '2023/02/06';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -1157,6 +1245,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 11;
         $tarea->Tiempo = 30;
         $tarea->Fecha = '2023/02/06';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -1169,6 +1258,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 29;
         $tarea->Tiempo = 45;
         $tarea->Fecha = '2023/02/06';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -1181,6 +1271,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 21;
         $tarea->Tiempo = 30;
         $tarea->Fecha = '2023/02/06';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -1193,6 +1284,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 30;
         $tarea->Tiempo = 60;
         $tarea->Fecha = '2023/02/07';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -1205,6 +1297,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 15;
         $tarea->Tiempo = 90;
         $tarea->Fecha = '2023/02/08';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -1217,6 +1310,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 28;
         $tarea->Tiempo = 60;
         $tarea->Fecha = '2023/02/09';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -1229,6 +1323,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 29;
         $tarea->Tiempo = 20;
         $tarea->Fecha = '2023/02/09';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -1241,6 +1336,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 15;
         $tarea->Tiempo = 30;
         $tarea->Fecha = '2023/02/09';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -1253,6 +1349,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 9;
         $tarea->Tiempo = 30;
         $tarea->Fecha = '2023/02/13';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -1265,6 +1362,7 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 9;
         $tarea->Tiempo = 10;
         $tarea->Fecha = '2023/02/14';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
@@ -1277,6 +1375,85 @@ class TareaSeeder extends Seeder
         $tarea->agenda_destinatario_id = 9;
         $tarea->Tiempo = 30;
         $tarea->Fecha = '2023/02/15';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
+        $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
+        $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
+        $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
+        $tarea->Semana = intval(date('W',strtotime($tarea->Fecha)));
+        $tarea->save();
+
+        $tarea = new Tarea();
+        $tarea->Tarea = "Consulta sobre un correo con posible virus";
+        $tarea->agenda_tipo_id = 6;
+        $tarea->agenda_destinatario_id = 3;
+        $tarea->Tiempo = 0;
+        $tarea->Fecha = '2023/02/15';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
+        $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
+        $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
+        $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
+        $tarea->Semana = intval(date('W',strtotime($tarea->Fecha)));
+        $tarea->save();
+
+        $tarea = new Tarea();
+        $tarea->Tarea = "Instalación certificado y autofirma, comprobación del certificado en la web de SUMA";
+        $tarea->agenda_tipo_id = 1;
+        $tarea->agenda_destinatario_id = 22;
+        $tarea->Tiempo = 30;
+        $tarea->Fecha = '2023/02/16';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
+        $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
+        $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
+        $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
+        $tarea->Semana = intval(date('W',strtotime($tarea->Fecha)));
+        $tarea->save();
+
+        $tarea = new Tarea();
+        $tarea->Tarea = "Consulta sobre envío de correo pesado";
+        $tarea->agenda_tipo_id = 6;
+        $tarea->agenda_destinatario_id = 22;
+        $tarea->Tiempo = 0;
+        $tarea->Fecha = '2023/02/16';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
+        $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
+        $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
+        $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
+        $tarea->Semana = intval(date('W',strtotime($tarea->Fecha)));
+        $tarea->save();
+
+        $tarea = new Tarea();
+        $tarea->Tarea = "No funciona Onedrive con MN";
+        $tarea->agenda_tipo_id = 1;
+        $tarea->agenda_destinatario_id = 22;
+        $tarea->Tiempo = 20;
+        $tarea->Fecha = '2023/02/17';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
+        $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
+        $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
+        $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
+        $tarea->Semana = intval(date('W',strtotime($tarea->Fecha)));
+        $tarea->save();
+
+        $tarea = new Tarea();
+        $tarea->Tarea = "Consulta sobre monitores";
+        $tarea->agenda_tipo_id = 6;
+        $tarea->agenda_destinatario_id = 4;
+        $tarea->Tiempo = 0;
+        $tarea->Fecha = '2023/02/17';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
+        $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
+        $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
+        $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));
+        $tarea->Semana = intval(date('W',strtotime($tarea->Fecha)));
+        $tarea->save();
+
+        $tarea = new Tarea();
+        $tarea->Tarea = "Configuración completa del portatil nuevo";
+        $tarea->agenda_tipo_id = 1;
+        $tarea->agenda_destinatario_id = 5;
+        $tarea->Tiempo = 150;
+        $tarea->Fecha = '2023/02/17';
+        $tarea->fecha_id = strtotime($tarea->Fecha)/86400;
         $tarea->Dia = intval(date('d',strtotime($tarea->Fecha)));
         $tarea->Mes = intval(date('m',strtotime($tarea->Fecha)));
         $tarea->Ano = intval(date('y',strtotime($tarea->Fecha)));

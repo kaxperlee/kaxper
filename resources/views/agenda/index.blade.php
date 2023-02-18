@@ -14,7 +14,7 @@
 
 @section('body')
 
-<h4 class="text-secondary mb-4">AGENDA </h4>
+<h4 class="text-secondary mb-4">AGENDA</h4>
 
 <div class="container-fluid text-center">
     <div class="row g-2">

@@ -28,7 +28,6 @@
                             <td>{{$tarea->Tarea}}</td>
                             <td>{{$tarea->agendaDestinatario->Nombre}}</td>
                             <td width="5">{{$tarea->Tiempoestimado}}m</td>
-
                         </tr>
                     @endforeach
                 </table>

@@ -39,5 +39,15 @@ class AgendaTipoSeeder extends Seeder
         $agendatipo->Tipo = "Sin fecha";
         $agendatipo->Descripcion = "";
         $agendatipo->save();
+
+        $agendatipo = new AgendaTipo();
+        $agendatipo->Tipo = "Consulta";
+        $agendatipo->Descripcion = "";
+        $agendatipo->save();
+
+        $agendatipo = new AgendaTipo();
+        $agendatipo->Tipo = "Intervención";
+        $agendatipo->Descripcion = "";
+        $agendatipo->save();
     }
 }

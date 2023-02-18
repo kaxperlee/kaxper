@@ -5,18 +5,19 @@
     <div class="accordion mb-3" id="accordionExample">
         <div class="accordion-item">
             <h2 class="accordion-header" id="headingOne">
-                <button class="accordion-button text-secondary fs-4 py-2" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                    Agenda
+                <button class="accordion-button text-secondary fs-4 py-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    AGENDA
                 </button>
             </h2>
-            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingTwo" data-bs-parent="#accordionExample2">
+            <div id="collapseOne" class="accordion-collapse collapse show mt-2" aria-labelledby="headingTwo" data-bs-parent="#accordionExample2">
                 <div class="accordion-body pt-2">
-                    <a href="{{route('agenda.indexDay',date('Y-m-d'))}}"><i class="fa-solid fa-calendar-day fa-2xl text-secondary pe-3"></i></a>
+                    <a href="{{route('agenda.indexday',date('Y-m-d'))}}"><i class="fa-solid fa-calendar-day fa-2xl text-secondary pe-3"></i></a>
                     <a href="{{route('agenda.indexWeek',date('W'))}}"><i class="fa-solid fa-calendar-week fa-2xl text-secondary pe-3"></i></a>
                     <a href="{{route('agenda.index',date('Y-m-d'))}}"><i class="fa-solid fa-calendar-days fa-2xl text-secondary"></i></a>
-
                 </div>
                 <x-aux-calendar fontsize="fs-6" dia="" mes="" ano="" />
+                <x-aux-semana fontsize="fs-6"  mes="" ano="" />
+                <x-aux-mes fontsize="fs-6"  ano="" />
             </div>
         </div>
     </div>

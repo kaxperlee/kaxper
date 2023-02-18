@@ -11822,3 +11822,13 @@ body {
   text-decoration: none;
   margin-left: 10px;
 }
+
+
+.kxp a{
+  text-decoration: none;
+}
+
+.today a{
+  color: #000000;
+  padding:10px;
+}

@@ -3,11 +3,9 @@
 namespace App\View\Components;
 
 use App\Models\Fecha;
-use App\Models\User;
 use Illuminate\View\Component;
 
-
-class AuxCalendar extends Component
+class AuxSemana extends Component
 {
     public $mes;
     public $ano;
@@ -19,27 +17,23 @@ class AuxCalendar extends Component
      *
      * @return void
      */
-    public function __construct($dia,$mes,$ano)
+    public function __construct($mes,$ano)
     {
-        if ($dia=="" or $mes=="" or $ano=="") {$dia = date("d"); $mes = date("n"); $ano = date("Y");}
+        if ($mes=="" or $ano=="") {$dia = $mes = date("n"); $ano = date("Y");}
 
-        $calendario = Fecha::where('mes',$mes)->where('ano',$ano)->get();
+        $calendario = Fecha::where('mes',$mes)->where('ano',$ano)->groupBy('semana')->get();
 
-        //numero de semanas del mes
         $datos['numerosemanas'] = $calendario->groupBy('semana')->count();
         //$datos['semanas'] = $calendario->groupBy('semana')->get();
-        $datos['dia'] = $dia;
         $datos['mes'] = $mes;
         $datos['mesesp'] = $this->spanish_month($mes);
         $datos['ano'] = $ano;
-        $datos['hoy'] = date("Y-m-d", mktime(0, 0, 0, $mes, $dia, $ano));
-        $datos['primernumerodiames'] = $calendario->where('dia',1)->value('diasemana');
-        $datos['primerasemana'] = $calendario->where('dia',1)->value('semana');
-
+        $datos['semanahoy'] = date('W');
+        
         //$users = User::all();
         $calendario = $calendario->map(function ($cal) {
-            if ($cal->fecha == date('Y-m-d')) { // Cambiar el valor del campo "name" del usuario con id = 1
-                $cal->formato = 'text-dark bg-secondary today ';
+            if ($cal->semana == date('W')) { // Cambiar el valor del campo "name" del usuario con id = 1
+                $cal->formato = 'text-dark bg-secondary today';
             }
             return $cal;
         });
@@ -48,7 +42,6 @@ class AuxCalendar extends Component
 
         $this->calendario = $calendario;
         $this->datos = $datos;
-
     }
 
     public static function spanish_month($mes)
@@ -103,6 +96,6 @@ class AuxCalendar extends Component
      */
     public function render()
     {
-        return view('components.aux-calendar');
+        return view('components.aux-semana');
     }
 }
