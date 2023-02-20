@@ -9,16 +9,16 @@
             @foreach ($calendario as $mes)
                 @if ($loop->last)
                 <td class="col-4 text-secondary kxp {{$mes['formato']}}" style="text-align: center">
-                    <a class="text-uppercase {{$mes['formato']}}" href="{{route('agenda.indexday','Jan')}}">{{$mes['nombrecorto']}}</a>
+                    <a class="text-uppercase {{$mes['formato']}}" href="{{route('agenda.index',$mes['numero'])}}">{{$mes['nombrecorto']}}</a>
                 </td>
                 @else
                     @if($loop->index % 3 === 2)
                     <td class="col-4 text-secondary kxp {{$mes['formato']}}" style="text-align: center">
-                        <a class="text-uppercase {{$mes['formato']}}" href="{{route('agenda.indexday','Jan')}}">{{$mes['nombrecorto']}}</a>
+                        <a class="text-uppercase {{$mes['formato']}}" href="{{route('agenda.index',$mes['numero'])}}">{{$mes['nombrecorto']}}</a>
                     </td></tr><tr>
                     @else
                     <td class="col-4 text-secondary kxp {{$mes['formato']}}" style="text-align: center">
-                        <a class="text-uppercase {{$mes['formato']}}" href="{{route('agenda.indexday','Jan')}}">{{$mes['nombrecorto']}}</a>
+                        <a class="text-uppercase {{$mes['formato']}}" href="{{route('agenda.index',$mes['numero'])}}">{{$mes['nombrecorto']}}</a>
                     </td>
                     @endif
                 @endif

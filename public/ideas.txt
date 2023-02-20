@@ -1,0 +1,1 @@
+Para el panel de los distintos tipos de tareas ver que hacemos con los sin fecha y elefantes cuando estamos en una fecha pasada, idea, poner fecha alta elefante y sin fecha y solo mostrar si esta entre la fecha de alta y la de finalizacion. Otra idea solo poner estos paneles si estamos en el dia actual, semana, trimestre o mes actal

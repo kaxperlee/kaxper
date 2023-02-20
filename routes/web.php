@@ -27,7 +27,7 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/biblioteca', [BibliotecaC
 Route::middleware(['auth:sanctum', 'verified'])->get('/enlaces', [EnlacesController::class, 'index'])->name('enlaces.index');
 Route::middleware(['auth:sanctum', 'verified'])->post('/enlaces', [EnlacesController::class, 'store'])->name('enlaces.store');
 
-Route::middleware(['auth:sanctum', 'verified'])->get('/agenda', [AgendaController::class, 'index'])->name('agenda.index');
+Route::middleware(['auth:sanctum', 'verified'])->get('/agenda/{mes?}', [AgendaController::class, 'index'])->name('agenda.index');
 Route::middleware(['auth:sanctum', 'verified'])->get('/agendaday/{fecha}', [AgendaController::class, 'indexday'])->name('agenda.indexday');
 Route::middleware(['auth:sanctum', 'verified'])->get('/agenda-week/{fecha}', [AgendaController::class, 'indexWeek'])->name('agenda.indexWeek');
 Route::middleware(['auth:sanctum', 'verified'])->get('/agenda/semana/{fecha}', [AgendaController::class, 'semana'])->name('agenda.semana');

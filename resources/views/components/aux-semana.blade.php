@@ -7,7 +7,7 @@
     <table width="100%" class="mb-0" >
         <tr class="border-bottom border-top border-secondary" style="">
             @foreach ($calendario as $semana)
-            <td class="text-secondary kxp {{$semana->formato}} " style="text-align: center"><a class="{{$semana->formato}}" href="{{route('agenda.indexday',$semana->semana)}}">{{$semana->semana}}</a></td>
+            <td class="text-secondary kxp {{$semana->formato}} " style="text-align: center"><a class="{{$semana->formato}}" href="{{route('agenda.indexWeek',$semana->semana)}}">{{$semana->semana}}</a></td>
         @endforeach
         </tr>
     </table>
